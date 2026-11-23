@@ -1,0 +1,65 @@
+# 🔍 Grad-CAM: Explainable AI Using ResNet50
+
+## 📌 Project Overview
+This project explores Explainable Artificial Intelligence (XAI) using Gradient-weighted Class Activation Mapping (Grad-CAM).
+
+The objective is to visualize which regions of an input image contribute to a Convolutional Neural Network's classification prediction.
+
+A pretrained ResNet50 model is implemented using PyTorch to perform image classification and generate visual explanations through Grad-CAM heatmaps.
+
+## 🎯 Objectives
+- Understand CNN-based image classification.
+- Implement Grad-CAM visualization.
+- Extract feature activations and gradients.
+- Generate class activation heatmaps.
+- Improve interpretability of deep learning predictions.
+
+## 🛠️ Technologies Used
+- Python
+- PyTorch
+- Torchvision
+- NumPy
+- Matplotlib
+- Google Colab
+- ResNet50
+- Grad-CAM
+
+## ⚙️ Methodology
+1. Load a pretrained ResNet50 model.
+2. Upload and preprocess an input image.
+3. Perform image classification.
+4. Extract convolutional layer activations.
+5. Calculate gradients for the predicted class.
+6. Generate the Grad-CAM heatmap.
+7. Overlay the heatmap on the original image.
+
+## 📊 Results
+The experiment generates:
+- Image classification predictions.
+- Grad-CAM heatmaps.
+- Visual overlays highlighting image regions associated with the selected prediction.
+
+## 🚀 How to Run
+1. Download the `.ipynb` notebook from this repository.
+2. Open [Google Colab](https://colab.research.google.com/).
+3. Upload the notebook.
+4. Run the cells sequentially.
+5. Upload an image when prompted.
+6. View the prediction and Grad-CAM visualization.
+
+## 📚 Key Learning Outcomes
+- Practical understanding of CNN architectures.
+- Gradient-based model interpretation.
+- Feature map visualization.
+- Hands-on experience with Explainable AI.
+
+## 🔮 Future Improvements
+- Experiment with different CNN architectures.
+- Compare Grad-CAM with Grad-CAM++.
+- Test on multiple image datasets.
+- Evaluate explanations across different predicted classes.
+
+## 👩‍💻 Project Category
+Deep Learning | Computer Vision | Explainable AI
+
+**Note:** This is an educational implementation demonstrating gradient-based visual explanations, not a complete evaluation of model interpretability.
